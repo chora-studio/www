@@ -9,9 +9,6 @@ rm -rf dist
 # build website
 bun run build
 
-# add CNAME file
-echo 'chora.studio' >> dist/CNAME
-
 # change to build directory
 cd dist
 

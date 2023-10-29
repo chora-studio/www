@@ -16,12 +16,12 @@ const ValidatorPage = () => {
         <div>
           <h2>{'validator'}</h2>
           <p>
-            {'Chora Studio operates Chora Validator on '}
+            {'Chora Studio operates as Chora Validator on '}
             <a href={regenLink} target="_blank">
               {'Regen'}
             </a>
             {
-              ' in addition to multiple test networks including Chora Testnet and Regen Redwood.'
+              ' as well as multiple test networks including Regen Redwood and Chora Testnet.'
             }
           </p>
         </div>

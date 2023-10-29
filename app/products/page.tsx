@@ -19,7 +19,7 @@ const ProductsPage = () => {
             <a href="https://chora.io" target="_blank">
               {'Chora Protocol'}
             </a>
-            {' - software tools and services for commons governance and ecological regeneration.'}
+            {' - distributed ledger technology for commons governance and ecological regeneration.'}
           </p>
         </div>
       </div>

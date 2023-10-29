@@ -12,6 +12,9 @@ bun run build
 # change to build directory
 cd dist
 
+# create .nojekyll file
+touch .nojekyll
+
 # git init and commit
 git init
 git add -A

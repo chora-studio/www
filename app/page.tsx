@@ -5,7 +5,7 @@ import Background from '@components/Background'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
-  title: 'chora studio | home',
+  title: 'chora studio | protocol research and development',
 }
 
 const regenLink =
@@ -34,7 +34,7 @@ const HomePage = () => {
             <a href="https://chora.io" target="_blank">
               {'Chora Protocol'}
             </a>
-            {' - software tools and services for commons governance and ecological regeneration.'}
+            {' - distributed ledger technology for commons governance and ecological regeneration.'}
           </p>
           <p>
             <a href="/products">
@@ -52,12 +52,12 @@ const HomePage = () => {
           </p>
           <h2>{'validator'}</h2>
           <p>
-            {'Chora Studio operates Chora Validator on '}
+            {'Chora Studio operates as Chora Validator on '}
             <a href={regenLink} target="_blank">
               {'Regen'}
             </a>
             {
-              ' in addition to multiple test networks including Chora Testnet and Regen Redwood.'
+              ' as well as multiple test networks including Regen Redwood and Chora Testnet.'
             }
           </p>
           <p>

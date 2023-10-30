@@ -5,11 +5,8 @@ import Background from '@components/Background'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
-  title: 'chora studio | protocol research and development',
+  title: 'chora studio | research and development',
 }
-
-const regenLink =
-  'https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e'
 
 const HomePage = () => {
   return (
@@ -21,7 +18,7 @@ const HomePage = () => {
           <p>
             <i>{'what is the role of technology in ecological regeneration?'}</i>
           </p>
-          <p>{'protocol research and development'}</p>
+          <p>{'software research and development'}</p>
         </div>
       </div>
       <div className={styles.sectionText}>
@@ -53,7 +50,7 @@ const HomePage = () => {
           <h2>{'validator'}</h2>
           <p>
             {'Chora Studio operates as Chora Validator on '}
-            <a href={regenLink} target="_blank">
+            <a href="https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e" target="_blank">
               {'Regen'}
             </a>
             {

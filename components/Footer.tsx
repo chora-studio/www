@@ -50,7 +50,7 @@ const Footer = () => {
           <ul>
             <li>
               <Link href="https://chora.io" target="_blank">
-                {'chora dashboard ↗'}
+                {'chora applications ↗'}
               </Link>
             </li>
             <li>

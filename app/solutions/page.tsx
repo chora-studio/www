@@ -11,7 +11,7 @@ const SolutionsPage = () => {
     <div className={styles.container}>
       <div className={styles.sectionText}>
         <div>
-          <h2>{'solutions'}</h2>
+          <h1>{'solutions'}</h1>
           <p>
             {'Chora Studio offers software research and development consulting services to clients building infrastructure for climate solutions.'}
           </p>

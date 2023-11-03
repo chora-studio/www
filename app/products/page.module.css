@@ -62,7 +62,11 @@
   padding: 2rem;
 }
 
-.sectionText div h2 {
+.sectionText h1 {
+  margin: 2rem 0 1rem 0;
+}
+
+.sectionText h2 {
   margin-top: 2rem;
 }
 

@@ -49,12 +49,12 @@ const HomePage = () => {
           </p>
           <h2>{'validator'}</h2>
           <p>
-            {'Chora Studio operates as Chora Validator on '}
+            {'Chora Studio operates Chora Validator on '}
             <a href="https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e" target="_blank">
               {'Regen'}
             </a>
             {
-              ' as well as multiple test networks including Regen Redwood and Chora Testnet.'
+              ' and multiple test networks including Regen Redwood and Chora Testnet.'
             }
           </p>
           <p>

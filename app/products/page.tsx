@@ -11,7 +11,7 @@ const ProductsPage = () => {
     <div className={styles.container}>
       <div className={styles.sectionText}>
         <div>
-          <h2>{'products'}</h2>
+          <h1>{'products'}</h1>
           <p>
             {
               'Chora Studio is stewarding '

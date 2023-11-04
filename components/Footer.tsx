@@ -1,93 +1,96 @@
-'use client'
+"use client";
 
-import { ThemeContext } from '@contexts/ThemeContext'
-import choraLogoDark from '../public/images/chora_dark_small.png'
-import choraLogoLight from '../public/images/chora_light_small.png'
-import Image from 'next/image'
-import Link from 'next/link'
-import { useContext } from 'react'
+import { ThemeContext } from "@contexts/ThemeContext";
+import choraLogoDark from "../public/images/chora_dark_small.png";
+import choraLogoLight from "../public/images/chora_light_small.png";
+import Image from "next/image";
+import Link from "next/link";
+import { useContext } from "react";
 
-import styles from './Footer.module.css'
+import styles from "./Footer.module.css";
 
 const Footer = () => {
-  const { darkTheme } = useContext(ThemeContext)
+  const { darkTheme } = useContext(ThemeContext);
 
   return (
     <div className={styles.footer}>
-      <div style={{ display: 'none' }}>{darkTheme.toString()}</div>
+      <div style={{ display: "none" }}>{darkTheme.toString()}</div>
       <div>
         <div className={styles.title}>
           <Image alt="chora" src={darkTheme ? choraLogoDark : choraLogoLight} />
-          <h4>{'© 2023 Chora Studio, LLC'}</h4>
+          <h4>{"© 2023 Chora Studio, LLC"}</h4>
         </div>
         <div className={styles.list}>
-          <h3>{'chora studio'}</h3>
+          <h3>{"chora studio"}</h3>
           <ul>
             <li>
               <Link href="https://blog.chora.studio" target="_blank">
-                {'blog ↗'}
+                {"blog ↗"}
               </Link>
             </li>
             <li>
-              <Link href="/products">
-                {'products'}
-              </Link>
+              <Link href="/products">{"products"}</Link>
             </li>
             <li>
-              <Link href="/solutions">
-                {'solutions'}
-              </Link>
+              <Link href="/solutions">{"solutions"}</Link>
             </li>
             <li>
-              <Link href="/validator">
-                {'validator'}
-              </Link>
+              <Link href="/validator">{"validator"}</Link>
             </li>
           </ul>
         </div>
         <div className={styles.list}>
-          <h3>{'chora protocol'}</h3>
+          <h3>{"chora protocol"}</h3>
           <ul>
             <li>
               <Link href="https://chora.io" target="_blank">
-                {'chora applications ↗'}
+                {"chora applications ↗"}
               </Link>
             </li>
             <li>
               <Link href="https://docs.chora.io" target="_blank">
-                {'chora documentation ↗'}
+                {"chora documentation ↗"}
               </Link>
             </li>
             <li>
               <Link href="https://github.com/choraio" target="_blank">
-                {'chora repositories ↗'}
+                {"chora repositories ↗"}
               </Link>
             </li>
           </ul>
         </div>
         <div className={styles.list}>
-          <h3>{'chora validator'}</h3>
+          <h3>{"chora validator"}</h3>
           <ul>
             <li>
-              <Link href="https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e" target="_blank">
-                {'regen ↗'}
+              <Link
+                href="https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e"
+                target="_blank"
+              >
+                {"regen ↗"}
               </Link>
             </li>
             <li>
-              <Link href="https://chora.io/scan/regen-redwood-1" target="_blank">
-                {'regen-redwood ↗'}
+              <Link
+                href="https://chora.io/scan/regen-redwood-1"
+                target="_blank"
+              >
+                {"regen-redwood ↗"}
               </Link>
             </li>
             <li>
-              <Link href="https://chora.io/scan/chora-testnet-1" target="_blank">
-                {'chora-testnet ↗'}
+              <Link
+                href="https://chora.io/scan/chora-testnet-1"
+                target="_blank"
+              >
+                {"chora-testnet ↗"}
               </Link>
             </li>
           </ul>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

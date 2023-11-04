@@ -1,24 +1,26 @@
-import { Metadata } from 'next'
+import { Metadata } from "next";
 
-import styles from './page.module.css'
+import styles from "./page.module.css";
 
 export const metadata: Metadata = {
-  title: 'chora studio | solutions',
-}
+  title: "chora studio | solutions",
+};
 
 const SolutionsPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.sectionText}>
         <div>
-          <h1>{'solutions'}</h1>
+          <h1>{"solutions"}</h1>
           <p>
-            {'Chora Studio offers software research and development consulting services to clients building infrastructure for climate solutions.'}
+            {
+              "Chora Studio offers software research and development consulting services to clients building infrastructure for climate solutions."
+            }
           </p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SolutionsPage
+export default SolutionsPage;

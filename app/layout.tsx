@@ -1,9 +1,9 @@
-import { ThemeContextProvider } from "@contexts/ThemeContext";
+import { ThemeContextProvider } from '@contexts/ThemeContext'
 
-import Footer from "@components/Footer";
-import Header from "@components/Header";
+import Footer from '@components/Footer'
+import Header from '@components/Header'
 
-import "./globals.css";
+import './globals.css'
 
 const Layout = ({ children }: any) => (
   <html lang="en">
@@ -17,6 +17,6 @@ const Layout = ({ children }: any) => (
       </main>
     </body>
   </html>
-);
+)
 
-export default Layout;
+export default Layout

@@ -53,7 +53,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/choraio" target="_blank">
+              <Link href="https://github.com/chora-io" target="_blank">
                 {'chora repositories ↗'}
               </Link>
             </li>

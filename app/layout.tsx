@@ -38,7 +38,7 @@ const Layout = ({ children }: any) => (
           />
           {children}
           <Footer
-            lists={[
+            items={[
               {
                 title: 'chora studio',
                 items: [

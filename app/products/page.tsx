@@ -15,10 +15,10 @@ const ProductsPage = () => {
           <p>
             {'Chora Studio is stewarding '}
             <a href="https://chora.io" target="_blank">
-              {'Chora Protocol'}
+              {'Chora'}
             </a>
             {
-              ' - distributed ledger technology for commons governance and ecological regeneration.'
+              ' - software for commons governance and ecological regeneration using distributed ledger technology.'
             }
           </p>
         </div>

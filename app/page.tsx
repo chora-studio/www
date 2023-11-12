@@ -31,10 +31,10 @@ const HomePage = () => {
           <p>
             {'Chora Studio is stewarding '}
             <a href="https://chora.io" target="_blank">
-              {'Chora Protocol'}
+              {'Chora'}
             </a>
             {
-              ' - distributed ledger technology for commons governance and ecological regeneration.'
+              ' - software for commons governance and ecological regeneration using distributed ledger technology.'
             }
           </p>
           <p>
@@ -43,7 +43,7 @@ const HomePage = () => {
           <h2>{'solutions'}</h2>
           <p>
             {
-              'Chora Studio offers software research and development consulting services to clients building infrastructure for climate solutions.'
+              'Chora Studio offers software research and development consulting services to clients building tools and infrastructure for climate solutions.'
             }
           </p>
           <p>

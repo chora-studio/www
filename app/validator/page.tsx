@@ -55,7 +55,7 @@ const ValidatorPage = () => {
           <h2>{'why choose chora validator?'}</h2>
           <p>
             {
-              'Chora Validator is committed to ensuring the security and integrity of every network that Chora Validator operates on. Chora Validator is operated by senior software engineers with more than two years of experience building, maintaining, and testing software within the Cosmos ecosystem.'
+              'Chora Validator is committed to ensuring the security and integrity of every network that Chora Validator operates on. Chora Validator is operated by a senior software engineer with more than two years of experience building, maintaining, and testing software within the Cosmos ecosystem.'
             }
           </p>
           <h3>{'regen'}</h3>

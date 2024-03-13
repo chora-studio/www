@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
-  title: 'chora studio | research and development',
+  title: 'chora studio | software research and development',
 }
 
 const HomePage = () => {
@@ -34,7 +34,7 @@ const HomePage = () => {
               {'Chora'}
             </a>
             {
-              ' - software for commons governance and ecological regeneration using distributed ledger technology.'
+              ' - software for commons governance and ecological regeneration built with distributed ledger technology.'
             }
           </p>
           <p>
@@ -43,7 +43,7 @@ const HomePage = () => {
           <h2>{'solutions'}</h2>
           <p>
             {
-              'Chora Studio offers software research and development consulting services to clients building tools and infrastructure for climate solutions.'
+              'Chora Studio offers research and development consulting services to clients leveraging distributed ledger technology for regenerative finance.'
             }
           </p>
           <p>

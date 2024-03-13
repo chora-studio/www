@@ -18,7 +18,7 @@ const ProductsPage = () => {
               {'Chora'}
             </a>
             {
-              ' - software for commons governance and ecological regeneration using distributed ledger technology.'
+              ' - software for commons governance and ecological regeneration built with distributed ledger technology.'
             }
           </p>
         </div>

@@ -14,7 +14,7 @@ const SolutionsPage = () => {
           <h1>{'solutions'}</h1>
           <p>
             {
-              'Chora Studio offers research and development consulting services to clients leveraging distributed ledger technology for regenerative finance.'
+              'Chora Studio provides software research and development as a service with a focus on distributed ledger technology and regenerative finance.'
             }
           </p>
         </div>

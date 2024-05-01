@@ -1,7 +1,6 @@
 /* container */
 
 .container {
-  background: var(--background-primary-transparent);
   width: 100vw;
 }
 
@@ -34,7 +33,7 @@
 
 @media (max-width: 850px) {
   .sectionMain {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 

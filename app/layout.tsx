@@ -21,20 +21,24 @@ const Layout = ({ children }: any) => (
                 {
                   link: '/products',
                   title: 'products',
+                  target: '',
                 },
                 {
                   link: '/solutions',
                   title: 'solutions',
+                  target: '',
                 },
                 {
                   link: '/validator',
                   title: 'validator',
+                  target: '',
                 },
               ]}
               itemsRight={[
                 {
                   link: 'https://chora.blog',
                   title: 'blog',
+                  target: '_blank',
                 },
               ]}
               showMenuButton={true}

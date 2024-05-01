@@ -1,5 +1,8 @@
 import { Background } from 'chora/components'
 import { Metadata } from 'next'
+import Link from 'next/link'
+
+import RightArrow from '@components/RightArrow'
 
 import styles from './page.module.css'
 
@@ -28,15 +31,18 @@ const HomePage = () => {
           <h2>{'products'}</h2>
           <p>
             {'Chora Studio is stewarding '}
-            <a href="https://chora.io" target="_blank">
+            <Link href="https://chora.io" target="_blank">
               {'Chora'}
-            </a>
+            </Link>
             {
               ' - software for commons governance and ecological regeneration built with distributed ledger technology.'
             }
           </p>
           <p>
-            <a href="/products">{'learn more ⇾'}</a>
+            <Link href="/products">
+              {'learn more'}
+              <RightArrow />
+            </Link>
           </p>
           <h2>{'solutions'}</h2>
           <p>
@@ -45,7 +51,10 @@ const HomePage = () => {
             }
           </p>
           <p>
-            <a href="/solutions">{'learn more ⇾'}</a>
+            <Link href="/solutions">
+              {'learn more'}
+              <RightArrow />
+            </Link>
           </p>
           <h2>{'validator'}</h2>
           <p>
@@ -61,7 +70,10 @@ const HomePage = () => {
             }
           </p>
           <p>
-            <a href="/validator">{'learn more ⇾'}</a>
+            <Link href="/validator">
+              {'learn more'}
+              <RightArrow />
+            </Link>
           </p>
         </div>
       </div>

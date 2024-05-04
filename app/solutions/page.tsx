@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 const SolutionsPage = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.sectionText}>
+    <div className={styles.page}>
+      <div className={styles.content}>
         <div>
           <h1>{'solutions'}</h1>
           <p>

@@ -1,4 +1,3 @@
-import { Background } from 'chora/components'
 import { ArrowRight } from 'chora/components/icons'
 import { Metadata } from 'next'
 import Link from 'next/link'
@@ -11,13 +10,11 @@ export const metadata: Metadata = {
 
 const HomePage = () => {
   return (
-    <div className={styles.container}>
-      <Background />
-      <div className={styles.sectionMain}>
+    <div className={styles.page}>
+      <div className={styles.banner}>
         <div>
           <h1>
-            {'chora '}
-            <span style={{ opacity: '0.75' }}>{'studio'}</span>
+            {'chora'} <span style={{ opacity: '0.75' }}>{'studio'}</span>
           </h1>
           <p>
             <i>{'commons governance and ecological regeneration'}</i>
@@ -25,7 +22,7 @@ const HomePage = () => {
           <p>{'research and development'}</p>
         </div>
       </div>
-      <div className={styles.sectionText}>
+      <div className={styles.content}>
         <div>
           <h2>{'products'}</h2>
           <p>
@@ -37,24 +34,20 @@ const HomePage = () => {
               ' - software for commons governance and ecological regeneration built with distributed ledger technology.'
             }
           </p>
-          <p>
-            <Link href="/products">
-              {'learn more'}
-              <ArrowRight />
-            </Link>
-          </p>
+          <Link href="/products">
+            {'learn more'}
+            <ArrowRight />
+          </Link>
           <h2>{'solutions'}</h2>
           <p>
             {
               'Chora Studio provides software research and development as a service with a focus on distributed ledger technology and regenerative finance.'
             }
           </p>
-          <p>
-            <Link href="/solutions">
-              {'learn more'}
-              <ArrowRight />
-            </Link>
-          </p>
+          <Link href="/solutions">
+            {'learn more'}
+            <ArrowRight />
+          </Link>
           <h2>{'validator'}</h2>
           <p>
             {'Chora Studio operates Chora Validator on '}
@@ -68,12 +61,10 @@ const HomePage = () => {
               ' and multiple test networks including Regen Redwood and Chora Testnet.'
             }
           </p>
-          <p>
-            <Link href="/validator">
-              {'learn more'}
-              <ArrowRight />
-            </Link>
-          </p>
+          <Link href="/validator">
+            {'learn more'}
+            <ArrowRight />
+          </Link>
         </div>
       </div>
     </div>

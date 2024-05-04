@@ -11,8 +11,8 @@ const regenLink =
 
 const ValidatorPage = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.sectionText}>
+    <div className={styles.page}>
+      <div className={styles.content}>
         <div>
           <h1>{'validator'}</h1>
           <p>

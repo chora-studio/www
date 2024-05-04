@@ -1,86 +1,54 @@
-/* container */
-
-.container {
-  width: 100vw;
+.page {
+  composes: page from 'chora/styles/page.css';
 }
 
-/* sectionMain */
-
-.sectionMain {
-  align-items: center;
-  display: flex;
-  font-size: 1.5rem;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
+.banner {
+  composes: banner-full from 'chora/styles/main.css';
 }
 
-.sectionMain h1 {
-  padding: 0.75rem 0;
-}
-
-.sectionMain p {
-  padding: 0.5rem 0;
-}
-
-.sectionMain p > i {
-  color: var(--color-theme);
+.banner h1 {
+  font-size: 1.75em;
+  margin-top: 2.5%;
+  padding: 0.15em 0;
 }
 
 @media (max-width: 850px) {
-  .sectionMain {
-    font-size: 1rem;
+  .banner h1 {
+    padding: 0.1em 0 !important;
   }
 }
 
-/* sectionText */
-
-.sectionText {
-  align-items: center;
-  background: var(--background-primary);
-  display: flex;
-  font-size: 1.2rem;
-  justify-content: center;
-  min-height: 100vh;
+.banner p {
+  padding: 0.2em 0;
 }
 
 @media (max-width: 850px) {
-  .sectionText {
-    font-size: 1rem;
+  .banner p {
+    padding: 0.15em 0 !important;
   }
 }
 
-.sectionText div {
+.content {
+  composes: content-full from 'chora/styles/main.css';
+}
+
+.content > div > h2 {
+  padding-bottom: 0.25em;
+}
+
+@media (max-width: 850px) {
+  .content > div > h2 {
+    padding-bottom: 0;
+  }
+}
+
+.content > div > a {
   display: block;
-  margin-bottom: 5%;
-  max-width: 650px;
-  padding: 2rem;
-}
-
-.sectionText div h2 {
-  margin-top: 2rem;
-}
-
-.sectionText div p {
-  padding: 1rem 0;
+  margin-bottom: 2em;
 }
 
 @media (max-width: 850px) {
-  .sectionText div {
-    padding: 2rem;
+  .content > div > a {
+    margin-bottom: 1.5em;
   }
-}
-
-/* sectionTextLinks */
-
-.sectionTextLinks {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  text-align: center;
-}
-
-.sectionTextLinks a {
-  padding: 1rem;
 }

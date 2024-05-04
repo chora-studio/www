@@ -8,155 +8,153 @@ import './globals.css'
 const Layout = ({ children }: any) => (
   <html lang="en">
     <body>
-      <main>
-        <ThemeContextProvider>
-          <MenuContextProvider>
-            <Background />
-            <Header
-              title={{
-                link: '/',
-                titleX: 'studio',
-              }}
-              items={[
-                {
-                  link: '/products',
-                  title: 'products',
-                  target: '',
-                },
-                {
-                  link: '/solutions',
-                  title: 'solutions',
-                  target: '',
-                },
-                {
-                  link: '/validator',
-                  title: 'validator',
-                  target: '',
-                },
-                'divider',
-                {
-                  link: 'https://chora.blog',
-                  title: 'blog',
-                  target: '_blank',
-                },
-              ]}
-              showMenuButton={true}
-              showMobileTitle={true}
-            />
-            <Sidebar
-              items={[
-                {
-                  link: '.',
-                  target: '',
-                  title: 'home',
-                },
-                {
-                  link: 'products',
-                  target: '',
-                  title: 'products',
-                },
-                {
-                  link: 'solutions',
-                  target: '',
-                  title: 'solutions',
-                },
-                {
-                  link: 'validator',
-                  target: '',
-                  title: 'validator',
-                },
-                'divider',
-                {
-                  link: 'https://chora.blog',
-                  target: '_blank',
-                  title: 'chora blog',
-                },
-                {
-                  link: 'https://chora.io',
-                  target: '_blank',
-                  title: 'chora software',
-                },
-                {
-                  link: 'https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e',
-                  target: '_blank',
-                  title: 'chora validator',
-                },
-              ]}
-              mobileOnly={true}
-            />
-            {children}
-            <Footer
-              sections={[
-                {
-                  title: 'chora studio',
-                  items: [
-                    {
-                      link: 'https://chora.blog',
-                      target: '_blank',
-                      title: 'blog',
-                    },
-                    {
-                      link: '/products',
-                      target: '',
-                      title: 'products',
-                    },
-                    {
-                      link: '/solutions',
-                      target: '',
-                      title: 'solutions',
-                    },
-                    {
-                      link: '/validator',
-                      target: '',
-                      title: 'validator',
-                    },
-                  ],
-                },
-                {
-                  title: 'chora software',
-                  items: [
-                    {
-                      link: 'https://chora.io',
-                      target: '_blank',
-                      title: 'applications',
-                    },
-                    {
-                      link: 'https://docs.chora.io',
-                      target: '_blank',
-                      title: 'documentation',
-                    },
-                    {
-                      link: 'https://github.com/chora-io',
-                      target: '_blank',
-                      title: 'repositories',
-                    },
-                  ],
-                },
-                {
-                  title: 'chora validator',
-                  items: [
-                    {
-                      link: 'https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e',
-                      target: '_blank',
-                      title: 'regen',
-                    },
-                    {
-                      link: 'https://chora.io/ledger',
-                      target: '_blank',
-                      title: 'regen-redwood',
-                    },
-                    {
-                      link: 'https://chora.io/ledger',
-                      target: '_blank',
-                      title: 'chora-testnet',
-                    },
-                  ],
-                },
-              ]}
-            />
-          </MenuContextProvider>
-        </ThemeContextProvider>
-      </main>
+      <ThemeContextProvider>
+        <MenuContextProvider>
+          <Background />
+          <Header
+            title={{
+              link: '/',
+              titleX: 'studio',
+            }}
+            items={[
+              {
+                link: '/products',
+                title: 'products',
+                target: '',
+              },
+              {
+                link: '/solutions',
+                title: 'solutions',
+                target: '',
+              },
+              {
+                link: '/validator',
+                title: 'validator',
+                target: '',
+              },
+              'divider',
+              {
+                link: 'https://chora.blog',
+                title: 'blog',
+                target: '_blank',
+              },
+            ]}
+            showMenuButton={true}
+            showMobileTitle={true}
+          />
+          <Sidebar
+            items={[
+              {
+                link: '.',
+                target: '',
+                title: 'home',
+              },
+              {
+                link: 'products',
+                target: '',
+                title: 'products',
+              },
+              {
+                link: 'solutions',
+                target: '',
+                title: 'solutions',
+              },
+              {
+                link: 'validator',
+                target: '',
+                title: 'validator',
+              },
+              'divider',
+              {
+                link: 'https://chora.blog',
+                target: '_blank',
+                title: 'chora blog',
+              },
+              {
+                link: 'https://chora.io',
+                target: '_blank',
+                title: 'chora software',
+              },
+              {
+                link: 'https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e',
+                target: '_blank',
+                title: 'chora validator',
+              },
+            ]}
+            mobileOnly={true}
+          />
+          <main>{children}</main>
+          <Footer
+            sections={[
+              {
+                title: 'chora studio',
+                items: [
+                  {
+                    link: 'https://chora.blog',
+                    target: '_blank',
+                    title: 'blog',
+                  },
+                  {
+                    link: '/products',
+                    target: '',
+                    title: 'products',
+                  },
+                  {
+                    link: '/solutions',
+                    target: '',
+                    title: 'solutions',
+                  },
+                  {
+                    link: '/validator',
+                    target: '',
+                    title: 'validator',
+                  },
+                ],
+              },
+              {
+                title: 'chora software',
+                items: [
+                  {
+                    link: 'https://chora.io',
+                    target: '_blank',
+                    title: 'applications',
+                  },
+                  {
+                    link: 'https://docs.chora.io',
+                    target: '_blank',
+                    title: 'documentation',
+                  },
+                  {
+                    link: 'https://github.com/chora-io',
+                    target: '_blank',
+                    title: 'repositories',
+                  },
+                ],
+              },
+              {
+                title: 'chora validator',
+                items: [
+                  {
+                    link: 'https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e',
+                    target: '_blank',
+                    title: 'regen',
+                  },
+                  {
+                    link: 'https://chora.io/ledger',
+                    target: '_blank',
+                    title: 'regen-redwood',
+                  },
+                  {
+                    link: 'https://chora.io/ledger',
+                    target: '_blank',
+                    title: 'chora-testnet',
+                  },
+                ],
+              },
+            ]}
+          />
+        </MenuContextProvider>
+      </ThemeContextProvider>
     </body>
   </html>
 )

@@ -17,7 +17,7 @@ const Layout = ({ children }: any) => (
                 link: '/',
                 titleX: 'studio',
               }}
-              itemsLeft={[
+              items={[
                 {
                   link: '/products',
                   title: 'products',
@@ -33,8 +33,7 @@ const Layout = ({ children }: any) => (
                   title: 'validator',
                   target: '',
                 },
-              ]}
-              itemsRight={[
+                  'divider',
                 {
                   link: 'https://chora.blog',
                   title: 'blog',
@@ -83,11 +82,11 @@ const Layout = ({ children }: any) => (
                   title: 'chora validator',
                 },
               ]}
-              mobile={true}
+              mobileOnly={true}
             />
             {children}
             <Footer
-              items={[
+              sections={[
                 {
                   title: 'chora studio',
                   items: [

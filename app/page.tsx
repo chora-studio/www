@@ -1,8 +1,7 @@
 import { Background } from 'chora/components'
+import { ArrowRight } from 'chora/components/icons'
 import { Metadata } from 'next'
 import Link from 'next/link'
-
-import RightArrow from '@components/RightArrow'
 
 import styles from './page.module.css'
 
@@ -41,7 +40,7 @@ const HomePage = () => {
           <p>
             <Link href="/products">
               {'learn more'}
-              <RightArrow />
+              <ArrowRight />
             </Link>
           </p>
           <h2>{'solutions'}</h2>
@@ -53,7 +52,7 @@ const HomePage = () => {
           <p>
             <Link href="/solutions">
               {'learn more'}
-              <RightArrow />
+              <ArrowRight />
             </Link>
           </p>
           <h2>{'validator'}</h2>
@@ -72,7 +71,7 @@ const HomePage = () => {
           <p>
             <Link href="/validator">
               {'learn more'}
-              <RightArrow />
+              <ArrowRight />
             </Link>
           </p>
         </div>

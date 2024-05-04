@@ -33,7 +33,7 @@ const Layout = ({ children }: any) => (
                   title: 'validator',
                   target: '',
                 },
-                  'divider',
+                'divider',
                 {
                   link: 'https://chora.blog',
                   title: 'blog',

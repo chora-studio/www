@@ -2,13 +2,13 @@
 
 .container {
   background: var(--background-primary-transparent);
+  margin-top: var(--header-height);
   width: 100vw;
 }
 
 /* sectionText */
 
 .sectionText {
-  align-items: center;
   background: var(--background-primary);
   display: flex;
   font-size: 1.2rem;
@@ -33,8 +33,20 @@
   margin: 2rem 0 1rem 0;
 }
 
+@media (max-width: 850px) {
+  .sectionText h1 {
+    margin: 0;
+  }
+}
+
 .sectionText h2 {
   margin-top: 2rem;
+}
+
+@media (max-width: 850px) {
+  .sectionText h2 {
+    margin-top: 1rem;
+  }
 }
 
 .sectionText div p {

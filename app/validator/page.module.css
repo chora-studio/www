@@ -3,6 +3,5 @@
 }
 
 .content {
-  composes: content from 'chora/styles/main.css';
-  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  composes: content-full from 'chora/styles/main.css';
 }

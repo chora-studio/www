@@ -11,5 +11,15 @@
 }
 
 .content > div {
-  padding: 6em 0;
+  padding: 6em 0 !important;
+}
+
+@media (max-width: 850px) {
+  .content > div {
+    padding: 4em 0 !important;
+  }
+}
+
+.content > div > a {
+  margin-bottom: 2em !important;
 }

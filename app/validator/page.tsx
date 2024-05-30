@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 }
 
 const regenLink =
-  'https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e'
+  'https://ledger.chora.io/regen-1/network/validator/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e'
 
 const ValidatorPage = () => {
   return (

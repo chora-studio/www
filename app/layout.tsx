@@ -76,7 +76,7 @@ const Layout = ({ children }: any) => (
                 title: 'chora software',
               },
               {
-                link: 'https://ledger.chora.io/regen-1/network/validator/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e',
+                link: 'https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e',
                 target: '_blank',
                 title: 'chora validator',
               },
